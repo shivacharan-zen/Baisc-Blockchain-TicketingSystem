@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Navigation Bar */
+#header {
+  margin-bottom: 20px;
+  background-color: #343a40; /* Dark blue background */
+  color: #fff; /* White text for better contrast */
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+/* Ticket Section */
+#tickets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive layout for tickets */
+  grid-gap: 20px; /* Spacing between tickets */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #eee; /* Light gray background */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Individual Ticket Styling (can be further customized) */
+.ticket {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.ticket h3 {
+  margin-bottom: 10px;
+  color: #343a40; /* Dark blue title */
+}
+
+.ticket p {
+  color: #666; /* Light gray text */
+}
+footer {
+  font-size: 1 rem;
+  color: #8f8181; /* Light gray text */
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background-color: #90EE90; /* Light green */
+  border: 1px solid #67B868; /* Darker green border */
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure popups are above other elements */
+}
