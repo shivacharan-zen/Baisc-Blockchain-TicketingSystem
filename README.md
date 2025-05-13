@@ -1,4 +1,4 @@
-Thanks to Chatgpt 3.5/Gemini and Web Dev Cody for help to bulid this. with the help of chatgpt i made good looking ui changes, pop-up and logical changes.
+
 
 Try seeing this video Web Dev Cody https://youtu.be/FYhZPovlGZQ for help \.
 
